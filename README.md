@@ -10,7 +10,13 @@ Refer the given args in [main_pretrain.py](./main_pretrain.py) for running the t
 
 Below is an example:
 ```bash
-python main_pretrain.py --model mae_vit_small --ms_chans 8 --train_data_path /root/autodl-tmp/wv3/training_wv3/train_wv3.h5 --valid_data_path /root/autodl-tmp/wv3/training_wv3/valid_wv3.h5 --sensor wv3 --device cuda:0 --loss_type l1 --pos_type 2d_sincos --inp_type norm --attn_type sparse --rgb_c 4,2,1
+python main_pretrain.py --model mae_vit_small \
+--ms_chans 8 --rgb_c 4,2,1 \
+--train_data_path /root/autodl-tmp/wv3/training_wv3/train_wv3.h5 \
+--valid_data_path /root/autodl-tmp/wv3/training_wv3/valid_wv3.h5 \
+--sensor wv3 --device cuda:0 \
+--loss_type l1 --pos_type 2d_sincos \
+--inp_type norm --attn_type sparse 
 ```
 
 # Testing
