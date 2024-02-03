@@ -9,6 +9,7 @@ Refer [PanCollection](https://github.com/XiaoXiao-Woo/PanCollection) for trainin
 Refer the given args in [main_pretrain.py](./main_pretrain.py) for running the training script.
 
 Below is an example:
+
 ```bash
 python main_pretrain.py --model mae_vit_small \
 --ms_chans 8 --rgb_c 4,2,1 \
@@ -19,7 +20,7 @@ python main_pretrain.py --model mae_vit_small \
 --inp_type norm --attn_type sparse 
 ```
 
-# Testing
+## Testing
 
 Refer the given args in [test.py](./test.py) for running the testing script. You need to manually modify the variables to evaluate different models and datasets.
 
