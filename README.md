@@ -2,11 +2,11 @@
 
 ## Datasets
 
-Refer [PanCollection](https://github.com/XiaoXiao-Woo/PanCollection) for training and testing.
+Refer to [PanCollection](https://github.com/XiaoXiao-Woo/PanCollection) for training and testing.
 
 ## Training
 
-Refer the given args in [main_pretrain.py](./main_pretrain.py) for running the training script.
+Refer to the given args in [main_pretrain.py](./main_pretrain.py) for running the training script.
 
 Below is an example:
 
@@ -22,7 +22,7 @@ python main_pretrain.py --model mae_vit_small \
 
 ## Testing
 
-Refer the given args in [test.py](./test.py) for running the testing script. You need to manually modify the variables to evaluate different models and datasets.
+Refer to the given args in [test.py](./test.py) for running the testing script. You need to manually modify the variables to evaluate different models and datasets.
 
 Refer the folder `qb_mae_vit_base_e4_l1_2d_sincos_norm_sparse` and `wv3_mae_vit_base_e4_l1_2d_sincos_norm_sparse` to access pre-trained weights using `PEMAE-B` with `4` ensembling counts on QuickBird and WorldView-3 datasets.
 
