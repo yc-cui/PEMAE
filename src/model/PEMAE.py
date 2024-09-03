@@ -182,7 +182,7 @@ class PEMAEModel(pl.LightningModule):
         self.record_metrics('MAE', F.l1_loss(pred, gt), split)
         self.record_metrics('SSIM', MF.structural_similarity_index_measure(pred, gt, data_range=data_range), split)
         self.record_metrics('RMSE', MF.root_mean_squared_error_using_sliding_window(pred, gt), split)
-        self.record_metrics('ERGAS', MF.error_relative_global_dimensionless_synthesis(pred, gt) / 16., split)
+        self.record_metrics('ERGAS', MF.error_relative_global_dimensionless_synthesis(pred, gt), split)
         self.record_metrics('SAM', MF.spectral_angle_mapper(pred, gt), split)
         self.record_metrics('RASE', MF.relative_average_spectral_error(pred, gt), split)
         self.record_metrics('PSNR', MF.peak_signal_noise_ratio(pred, gt, data_range=data_range), split)
