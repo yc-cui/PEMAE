@@ -42,12 +42,12 @@ If you use PEMAE in your research, please use the following BibTeX entry.
 @ARTICLE{10649657,
   author={Cui, Yongchuan and Liu, Peng and Ma, Yan and Chen, Lajiao and Xu, Mengzhen and Guo, Xingyan},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={Pixel-Wise Ensembled Masked Autoencoder for Multispectral Pan-Sharpening}, 
+  title={Pixel-Wise Ensembled Masked Autoencoder for Multispectral Pansharpening}, 
   year={2024},
-  volume={},
+  volume={62},
   number={},
-  pages={1-1},
-  keywords={Training;Deep learning;Image reconstruction;Transformers;Satellites;Measurement;Feature extraction;Multispectral pan-sharpening;image fusion;masked autoencoder;deep learning},
+  pages={1-22},
+  keywords={Training;Deep learning;Image reconstruction;Transformers;Satellites;Measurement;Feature extraction;Deep learning (DL);image fusion;masked autoencoder;multispectral pansharpening},
   doi={10.1109/TGRS.2024.3450688}}
 ```
 
