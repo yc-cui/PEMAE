@@ -53,4 +53,4 @@ If you use PEMAE in your research, please use the following BibTeX entry.
 
 ## Contact
 
-Should you have any question, please contact cugcuiyc@cug.edu.cn
+Should you have any question, please contact yongchuancui@gmail.com
